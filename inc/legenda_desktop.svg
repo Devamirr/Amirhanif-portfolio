@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Laag_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 372 87" style="enable-background:new 0 0 372 87;" xml:space="preserve">
+<style type="text/css">
+	.st0{font-family:'Lato-Light';}
+	.st1{font-size:12px;}
+	.st2{fill:none;stroke:#000000;stroke-miterlimit:10;}
+	.st3{font-family:'Lato-Regular';}
+</style>
+<g>
+	<g>
+		<text transform="matrix(1 0 0 1 297.5149 63.8237)" class="st0 st1">Typography</text>
+		<path d="M287.4,66.5l-6.7-4.3c-0.4-0.2-0.5-0.7-0.2-1l4.3-6.7c0.2-0.4,0.7-0.5,1-0.2l6.7,4.3c0.4,0.2,0.5,0.7,0.2,1l-4.3,6.7
+			C288.2,66.6,287.7,66.7,287.4,66.5z"/>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 155.4443 63.8237)" class="st0 st1">Interactive design</text>
+		<circle cx="145.2" cy="60.3" r="5.6"/>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 31.8149 63.824)" class="st0 st1">Graphic design</text>
+		<path d="M26,65.8l-9.4-4.5c-0.2-0.1-0.3-0.4,0-0.6l8.6-5.9c0.2-0.1,0.5,0,0.5,0.3l0.8,10.4C26.5,65.7,26.2,65.9,26,65.8z"/>
+	</g>
+	<line class="st2" x1="123.5" y1="52.3" x2="123.5" y2="68.8"/>
+	<line class="st2" x1="263.5" y1="52.3" x2="263.5" y2="68.8"/>
+	<text transform="matrix(1 0 0 1 161.2224 29.3335)" class="st3 st1">~Legenda~</text>
+</g>
+</svg>

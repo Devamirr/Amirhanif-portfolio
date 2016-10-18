@@ -1,0 +1,358 @@
+@charset "utf-8";
+/* CSS Document */
+
+p {
+	margin-top: 0;
+}
+.werk a {
+    
+    height: 400px;
+    width: 400px;
+}
+.close {
+	position: absolute;
+	right: 32px;
+	top: 32px;
+	width: 32px;
+	height: 32px;
+	opacity: 0.3;
+}
+.close:hover {
+	opacity: 1;
+}
+.close:before, .close:after {
+	position: absolute;
+	left: 15px;
+	content: ' ';
+	height: 33px;
+	width: 2px;
+	background-color: #333;
+}
+.close:before {
+	transform: rotate(45deg);
+	
+}
+.close:after {
+	transform: rotate(-45deg);
+
+}
+.modal-container {
+    z-index: 999;
+	max-height: 700px;
+	overflow-y: auto;
+	position: fixed;
+	background-color:white;
+	width: 100%;
+	max-width: 80%;
+	left: 50%;
+	padding: 2px;
+	-webkit-transform: translate(-50%, -800%);
+	-mo-transform: translate(-50%, -800%);
+	transform: translate(-50%, -800%);
+	-webkit-transition: -webkit-transform 1000ms ease-in-out;
+	transition: transform 1000ms ease-in-out;
+}
+
+.modal:before {
+    z-index:998;
+	content: "";
+	position: fixed;
+	display: none;
+	background-color: white;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+}
+.modal:target:before {
+	display: block;
+}
+.modal:target .modal-container {
+	top: 10%;
+	-webkit-transform: translate(-50%, 0);
+	-ms-transform: translate(-50%, 0);
+	transform: translate(-50%, 0);
+}
+#modal-close {
+}
+/*-----------------Einde modal----------------*/
+
+
+.header {
+	height: auto;
+	width: 100%;
+	border:1px solid grey;
+}
+.header h1 {
+	text-align: center;
+	font-size: 2em;
+	margin-bottom: 5px;
+}
+.header p {
+	text-align: center;
+	font-size: 1.2em;
+	font-style: italic;
+}
+.front-c {
+	height: auto;
+	width: 100%;
+	border:1px solid grey;
+	margin-bottom:10px;
+}
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+
+body { 
+margin: 0; 
+} 
+.slider { 
+overflow: hidden; 
+}
+.slider figure img { 
+width: 20%; 
+float: left; 
+}
+.slider figure 
+{ 
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 20s slidy infinite; 
+}
+figure {
+     position: relative;
+    margin: 0;
+    left:0;
+}
+
+.front-foto {
+	width: 100%;
+	height:auto;
+	margin: 0px auto;
+}
+.front-info {
+	width: 90%;
+	margin: 10px auto;
+	text-align: center;
+	margin-bottom: 50px;
+}
+.front-info ul {
+	width: 60%;
+	margin: 0 auto;
+	font-style: italic;
+	letter-spacing: 6px;
+	padding-top: 20px;
+	text-align: center;
+}
+
+.sketch-c {
+	box-sizing:border-box;
+	height: 200px;
+    min-width: 300px;
+	border:1px solid grey;
+	margin-bottom:10px;
+	background-size:cover;
+    background-size:center
+}
+.subfoto {
+	height:auto;
+    overflow:hidden;
+	width:100%;
+    background-position: center;
+     position: relative;
+  width: 100%;
+  margin: 0;
+  left: 0;
+    
+}
+.sketch {
+	overflow:hidden;
+	width: 50%;
+	height: 200px;
+	margin: 00px auto;
+	float: left;
+}
+.sketch-info p, .other-info p {
+	margin-top: 10px;
+	font-size: 2em;
+	font-weight: bold;
+	margin-bottom: 0px;
+}
+.sketch-info {
+	width: 40%;
+	margin: 0px auto;
+	float: left;
+	text-align: center;
+}
+.other-info ul {
+	direction:rtl;
+    list-style-type: circle;
+}
+.other-info {
+	width: 50%;
+	margin: 0px auto;
+	float: left;
+	text-align:center;
+}
+.other-info h1{
+	margin:0;
+	margin-top:10px}
+.other-c {
+	box-sizing:border-box;
+	height: 200px;
+	width: 100%;
+	border:1px solid grey;
+	margin-bottom:12px;
+}
+.other {
+	overflow:hidden;
+	width: 50%;
+	height: 200px;
+	margin: 0px auto;
+	float: left;
+	text-align: center;
+}
+.other-info p {
+	margin-bottom: 0px;
+	font-size: 2em;
+	font-weight: bold;
+	padding-bottom: 0px;
+}
+.final {
+	overflow:hidden;
+	width: 100%;
+	height: 300px;
+	margin: 10px auto;
+	background-color: grey;
+	float: left;
+}
+.stop {
+	width: 100%;
+	height: 22px;
+	text-align: center;
+	float: left;
+	background-color:rgba(236,236,236,0.5);
+	margin:0 auto;
+}
+.stop a{
+	text-decoration:none;
+	color:black;
+	font-size:1.2em;
+}
+.stop a:hover{
+	text-decoration:none;
+	color:grey;
+}
+
+@media screen and (max-width: 1100px) {
+.front-info, .sketch-info, .other-info {
+	padding-bottom: 20px;
+}
+.front-c {
+	height: auto;
+	width: 100%;
+	border:1px solid grey;
+	margin-bottom:10px;
+}
+.front-foto {
+	margin: 0px auto;
+}
+.front-info {
+	height: auto;
+	width: 100%;
+	margin: 0px auto;
+}
+.sketch-c {
+	height: auto;
+	width: 100%;
+	border:1px solid grey;
+	margin-bottom:10px;
+}
+.sketch {
+	width: 100%;
+	height: 250px;
+	margin: 0px auto;
+	float: none;
+	margin-bottom:30px;
+}
+.sketch-info {
+	height: auto;
+	width: 100%;
+	margin: 0px auto;
+	float: none;
+	text-align: center;
+	margin-bottom:20px;
+	
+
+}
+.sketch-info ul {
+	width: 60%;
+	margin: 0 auto;
+	font-style: italic;
+	letter-spacing: 4px;
+	padding-top: 10px;
+	padding-bottom:10px;
+}
+.other-c {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	/* Reverse Column Order */
+	-webkit-flex-flow: column-reverse;
+	flex-flow: column-reverse;
+	height: auto;
+	width: 100%;
+	border:1px solid grey;
+}
+.other {
+	width: 100%;
+	height: 250px;
+	margin: 0px auto;
+	float: none;
+	margin-bottom:10px;
+}
+.other-info {
+	height: auto;
+	width: 100%;
+	margin: 10px auto;
+	float: none;
+	text-align: center;
+}
+.other-info ul {
+	width: 60%;
+	margin: 0 auto;
+	font-style: italic;
+	letter-spacing: 4px;
+	padding-top: 20px;
+	direction:ltr;
+}
+.final {
+	width: 100%;
+	margin: 10px auto;
+	float: none;
+}
+    .modal-container {
+        max-height: 90%;
+    max-width: 100%;
+	-webkit-transform: translate(-50%, -1200%);
+	-mo-transform: translate(-50%, -1200%);
+	transform: translate(-50%, -1200%);
+	-webkit-transition: -webkit-transform 8s ease-out;
+	transition: transform 1000ms ease-in-out;
+}
+
+}

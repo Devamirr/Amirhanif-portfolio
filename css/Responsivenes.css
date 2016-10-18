@@ -1,0 +1,34 @@
+/*///desktop-tablet-Responsivensess/////*/
+
+
+/*-----Desktop------------------------*/
+
+@media (min-width: 1300px) {
+    .kortInfo {
+        font-size: 1.8em;
+        transition: width ease-in-out 400ms;
+    }
+    #more-info p {
+        font-size: 1.5em;
+    }
+	#infograph .st3 {
+    font-weight: 500;
+	}
+}
+
+
+/*-----tablet------------------------*/
+
+@media (max-width: 1300px) {
+	#infograph .st3 {
+    font-weight: 500;
+	}
+    
+    .kortInfo {
+        font-size: 1.8em;
+    }
+    #more-info p {
+        font-size: 1.5em;
+    }
+    
+}

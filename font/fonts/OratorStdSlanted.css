@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'OratorStdSlanted';
+    src: url('fontsrt/OratorStdSlanted.eot');
+    src: url('fontsrt/OratorStdSlanted.eot') format('embedded-opentype'),
+         url('fontsrt/OratorStdSlanted.woff2') format('woff2'),
+         url('fontsrt/OratorStdSlanted.woff') format('woff'),
+         url('fontsrt/OratorStdSlanted.ttf') format('truetype'),
+         url('fontsrt/OratorStdSlanted.svg#OratorStdSlanted') format('svg');
+}
